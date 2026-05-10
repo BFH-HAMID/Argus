@@ -1,0 +1,23 @@
+# AI-Powered Home Security System Requirements
+
+# Core Dependencies
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# AI Object Detection
+ultralytics>=8.0.0  # YOLOv8
+
+# Face Recognition
+face_recognition>=1.3.0
+dlib>=19.24.0
+
+# Telegram Bot
+python-telegram-bot>=20.0
+requests>=2.31.0
+
+# Audio Processing
+PyAudio>=0.2.13
+
+# Utilities
+Pillow>=10.0.0
+python-dateutil>=2.8.2
