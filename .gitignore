@@ -1,16 +1,32 @@
-# v0 sandbox internal files
-__v0_runtime_loader.js
-__v0_devtools.tsx
-__v0_jsx-dev-runtime.ts
-.snowflake/
-.v0-trash/
-.vercel/
+# ============================================================================
+# Argus Security - git ignore
+# ============================================================================
 
-# Environment variables
-.env*.local
+# --- secrets ---------------------------------------------------------------
+.env
+.env.local
 
-# Common ignores
-node_modules
-.next/
+# --- runtime data (created automatically) ----------------------------------
+recordings/
+known_faces/
+data/
+*.log
+*.db
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv*/
+venv/
+build/
+dist/
+
+# --- YOLO model downloads ---------------------------------------------------
+*.pt
+
+# --- OS / editor ------------------------------------------------------------
 .DS_Store
-.vercel
+Thumbs.db
+.idea/
+.vscode/
